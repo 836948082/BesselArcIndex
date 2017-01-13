@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bg_gray_main">#F5F6F8</color>
+    <!-- 文字颜色  黑色 -->
+    <color name="text_black_main">#333333</color>
+    <!-- 文字颜色  灰色-->
+    <color name="text_gray_main">#AAAAAA</color>
+    <!-- 文字颜色  蓝色 -->
+    <color name="text_blue_main">#007ADF</color>
+    <!-- 文字颜色  橙色 -->
+    <color name="text_orange_main">#F05339</color>
+    <!-- 分割线颜色  灰色 -->
+    <color name="divider_gray">#E9E9EB</color>
+    <!-- 条目点击背景色    与白色按钮的单击背景色共用-->
+    <color name="bg_gray_item_selected">#DCDDDF</color>
+    <!-- 按钮点击背景色 (用于橙色按钮)-->
+    <color name="bg_orange_item_selected">#DE4931</color>
+    <!-- listView分组标签背景颜色 -->
+    <color name="pinned_header_bg">#e7e9ee</color>
+    <!--  -->
+    <color name="transparent_black_precent_6">#11000000</color>
+
+    <!--橙色按钮禁用时的灰色颜色-->
+    <color name="orange_btn_enable_bg">#CCCCCC</color>
+
+    <!-- //（END）APP中的常用颜色-->
+
+    <!-- //非公用颜色  -->
+
+    <!--浅灰色dialog取消按钮，计算器大项颜色-->
+    <color name="dialog_cancel_btn_color">#E8E9EE</color>
+    <!-- 页面 浅黑色背景 -->
+    <color name="app_poor_night_mode">#262626</color>
+    <!-- listview 颜色值 深色 一般用于其他文字 -->
+    <color name="app_listview_othertextcolor_night">#565656</color>
+
+
+    <color name="bg_color_orange_light">#FF8712</color>
+    <color name="bg_color_white_for_title">#FBFBFC</color>
+
+
+    <color name="text_stroke">#EC5742</color>
+    <color name="dialog_bg">#F5F6F8</color>
+
+    <color name="black_bg">#ff000000</color>
+    <color name="fastcar_lab_black">#ff848484</color>
+    <color name="grey_bg">#fff2f2f2</color>
+    <color name="transparent_grey_bg">#66000000</color>
+    <color name="transparent_grey_txt">#66848484</color>
+    <color name="grey_txt">#ff848484</color>
+    <color name="grey_txt_unenable">#ffbdbdbd</color>
+    <color name="grey_line">#ffe2e2e2</color>
+    <color name="grey_press">#ffebebea</color>
+    <color name="grey_search_bg">#ffe3e3e4</color>
+    <color name="meizhu_grey_tab">#ff909090</color>
+    <color name="orange">#ffeb6100</color>
+    <color name="orange_one">#fffdf3d6</color>
+    <color name="orange_attention">#fff7a66d</color>
+    <color name="green">#ff53d769</color>
+    <color name="green_txt">#ff46b63e</color>
+    <color name="chartbg">#ffc4d0ca</color>
+    <color name="chart_line">#ffcdcdcd</color>
+    <color name="chart_value">#ff666666</color>
+    <color name="yellow">#fffff100</color>
+    <color name="yellow_bg">#fffffbc9</color>
+    <color name="fastcar_lab_disable">#ffcdcdcd</color>
+
+    <color name="spec_grey">#ffd9d9d9</color>
+    <color name="darkgray">#ff848484</color>
+    <color name="neutralgrey">#ffcdcdcd</color>
+    <color name="lightgray">#fff2f2f2</color>
+    <color name="rangebar_connectline">#ff00c530</color>
+    <color name="rangebar_number_grey">#ff999999</color>
+    <color name="rangebar_bar_grey">#ffcccccc</color>
+    <color name="setting_background">#E7E9EE</color>
+    <color name="activity_list_divider">#E9E7EE</color>
+
+
+    <color name="imgshow_count">#777777</color>
+    <color name="selnomal">#F1533A</color>
+    <color name="selpressed">#DE4931</color>
+
+</resources>

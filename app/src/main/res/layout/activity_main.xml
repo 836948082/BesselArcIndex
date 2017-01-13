@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:huahua="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray_main"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#96B1B4"
+        android:gravity="center"
+        android:text="标题内容" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <com.runtai.besselarcindexlibrary.view.PinnedHeaderListView
+            android:id="@+id/pinnedheader_listview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/bg_gray_main"
+            android:divider="@null"
+            android:scrollbarStyle="insideOverlay" />
+
+        <com.runtai.besselarcindexlibrary.view.LetterIndexer
+            android:id="@+id/letter_index"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            huahua:additionalTipOffset="40dip"
+            huahua:fontColor="#2278BF"
+            huahua:maxBezierHeight="150dip"
+            huahua:maxBezierWidth="180dip"
+            huahua:maxFontSize="77"
+            huahua:minFontSize="32"
+            huahua:tipFontSize="72"
+            huahua:widthOffset="15dip" />
+
+        <TextView
+            android:id="@+id/tv_index_center"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/alpha_center_corner"
+            android:gravity="center"
+            android:text="A"
+            android:textColor="#FFFFFF"
+            android:textSize="36sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+</LinearLayout>
+
+
